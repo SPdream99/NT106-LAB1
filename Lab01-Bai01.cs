@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Lab1
 {
-    public partial class Form1 : Form
+    public partial class Lab01_Bai01 : Form
     {
-        public Form1()
+        public Lab01_Bai01()
         {
             InitializeComponent();
         }
@@ -26,8 +27,16 @@ namespace Lab1
         {
             int num1, num2;
             long sum = 0;
-            num1 = Int32.Parse(textBox1.Text);
-            num2 = Int32.Parse(textBox2.Text);
+            try
+            {
+                num1 = Int32.Parse(textBox1.Text);
+                num2 = Int32.Parse(textBox2.Text);
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Số không hợp lệ!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             sum = num1 + num2;
             textBox3.Text = sum.ToString();
         }
