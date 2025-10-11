@@ -64,5 +64,11 @@ namespace Lab1
             var form = new Lab01_Bai08();
             form.ShowDialog();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            var form = new Lab01_Bai09();
+            form.ShowDialog();
+        }
     }
 }
