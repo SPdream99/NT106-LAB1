@@ -54,7 +54,6 @@ namespace Lab1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int num1, num2, num3;
             int largest, smallest;
             try
             {

@@ -25,20 +25,6 @@ namespace Lab1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int num1, num2;
-            long sum = 0;
-            try
-            {
-                num1 = Int32.Parse(textBox1.Text);
-                num2 = Int32.Parse(textBox2.Text);
-            }
-            catch (FormatException)
-            {
-                MessageBox.Show("Số không hợp lệ!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            sum = num1 + num2;
-            textBox3.Text = sum.ToString();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
