@@ -26,6 +26,8 @@ namespace Lab1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox1.Clear();
+            textBox3.Clear();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -46,6 +48,61 @@ namespace Lab1
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int i = Int16.Parse(textBox1.Text);
+                string t = "";
+                switch (i)
+                {
+                    case 0:
+                        t = "Không";
+                        break;
+                    case 1:
+                        t = "Một";
+                        break;
+                    case 2:
+                        t = "Hai";
+                        break;
+                    case 3:
+                        t = "Ba";
+                        break;
+                    case 4:
+                        t = "Bốn";
+                        break;
+                    case 5:
+                        t = "Năm";
+                        break;
+                    case 6:
+                        t = "Sáu";
+                        break;
+                    case 7:
+                        t = "Bảy";
+                        break;
+                    case 8:
+                        t = "Tám";
+                        break;
+                    case 9:
+                        t = "Chín";
+                        break;
+                    default:
+                        throw new FormatException();
+                }
+                textBox3.Text = t;
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Số không hợp lệ!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

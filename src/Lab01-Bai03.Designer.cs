@@ -67,6 +67,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(398, 143);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.MaxLength = 1;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(172, 22);
             this.textBox1.TabIndex = 2;
@@ -102,6 +103,7 @@
             this.button2.TabIndex = 8;
             this.button2.Text = "Thoát";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -115,6 +117,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "Tìm";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label4
             // 

@@ -50,6 +50,7 @@
             this.button3.TabIndex = 17;
             this.button3.Text = "Tìm";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -63,6 +64,7 @@
             this.button2.TabIndex = 16;
             this.button2.Text = "Thoát";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label4
             // 
@@ -80,7 +82,7 @@
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(228, 22);
+            this.textBox3.Size = new System.Drawing.Size(479, 22);
             this.textBox3.TabIndex = 14;
             // 
             // label2
@@ -97,8 +99,9 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(62, 226);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.MaxLength = 12;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(172, 22);
+            this.textBox1.Size = new System.Drawing.Size(479, 22);
             this.textBox1.TabIndex = 12;
             // 
             // label1
@@ -123,6 +126,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Xóa";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Lab01_Bai04
             // 

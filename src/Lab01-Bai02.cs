@@ -54,13 +54,13 @@ namespace Lab1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int largest, smallest;
+            double largest, smallest;
             try
             {
-                List<int> numbers = new List<int> { };
-                if (textBox1.Text != "") numbers.Add(Int32.Parse(textBox1.Text));
-                if (textBox4.Text != "") numbers.Add(Int32.Parse(textBox4.Text));
-                if (textBox2.Text != "") numbers.Add(Int32.Parse(textBox2.Text));
+                List<double> numbers = new List<double> { };
+                if (textBox1.Text != "") numbers.Add(double.Parse(textBox1.Text));
+                if (textBox4.Text != "") numbers.Add(double.Parse(textBox4.Text));
+                if (textBox2.Text != "") numbers.Add(double.Parse(textBox2.Text));
                 largest = numbers.Max();
                 smallest = numbers.Min();
                 textBox3.Text = largest.ToString();
@@ -80,7 +80,7 @@ namespace Lab1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
     }
 }
