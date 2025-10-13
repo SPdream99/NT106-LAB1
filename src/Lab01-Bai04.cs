@@ -131,7 +131,7 @@ namespace Lab1
                                 t = gt + " Mươi " + t;
                             break;
                         case 0:
-                            t = gt + ((pos!=0)?" ":"") + t;
+                            t = gt + ((pos != 0) ? " " : "") + t;
                             break;
                     }
                 }
