@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,6 +14,7 @@ namespace Lab1
 {
     public partial class Lab01_Bai09 : Form
     {
+        List<string> monAn = new List<string>();
         public Lab01_Bai09()
         {
             InitializeComponent();
@@ -25,20 +27,10 @@ namespace Lab1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int num1, num2;
-            long sum = 0;
-            try
-            {
-                num1 = Int32.Parse(textBox1.Text);
-                num2 = Int32.Parse(textBox2.Text);
-            }
-            catch (FormatException)
-            {
-                MessageBox.Show("Số không hợp lệ!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            sum = num1 + num2;
-            textBox3.Text = sum.ToString();
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            monAn.Clear();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -59,6 +51,24 @@ namespace Lab1
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (!monAn.Contains(textBox1.Text)) monAn.Add(textBox1.Text);
+            else MessageBox.Show("Món ăn đã tồn tại!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            textBox2.Text = string.Join("\r\n", monAn);
+            textBox1.Focus();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox3.Text = monAn[new Random().Next(0, monAn.Count)];
         }
     }
 }
