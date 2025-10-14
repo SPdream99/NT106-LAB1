@@ -101,7 +101,6 @@ namespace Lab1
                         label.TextAlign = ContentAlignment.MiddleCenter;
                         tableLayoutPanel1.Controls.Add(label);
                     }
-                    //tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30F));
                     textBox2.Hide();
                     textBox3.Hide();
                     label3.Hide();
