@@ -25,6 +25,7 @@ namespace Lab1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox3.Clear();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -45,6 +46,57 @@ namespace Lab1
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DateTime date = dateTimePicker1.Value;
+            string text = "cung ";
+            switch (date)
+            {
+                case var _ when (date.Month == 3 && date.Day >= 21) || (date.Month == 4 && date.Day <= 20):
+                    text += "Bạch Dương";
+                    break;
+                case var _ when (date.Month == 4 && date.Day >= 21) || (date.Month == 5 && date.Day <= 21):
+                    text += "Kim Ngưu";
+                    break;
+                case var _ when (date.Month == 5 && date.Day >= 22) || (date.Month == 6 && date.Day <= 21):
+                    text += "Song Tử";
+                    break;
+                case var _ when (date.Month == 6 && date.Day >= 22) || (date.Month == 7 && date.Day <= 22):
+                    text += "Cự Giải";
+                    break;
+                case var _ when (date.Month == 7 && date.Day >= 23) || (date.Month == 8 && date.Day <= 22):
+                    text += "Sử Tử";
+                    break;
+                case var _ when (date.Month == 8 && date.Day >= 23) || (date.Month == 9 && date.Day <= 23):
+                    text += "Xử Nữ";
+                    break;
+                case var _ when (date.Month == 9 && date.Day >= 24) || (date.Month == 10 && date.Day <= 23):
+                    text += "Thiên Bình";
+                    break;
+                case var _ when (date.Month == 10 && date.Day >= 24) || (date.Month == 11 && date.Day <= 22):
+                    text += "Thần Nông";
+                    break;
+                case var _ when (date.Month == 11 && date.Day >= 23) || (date.Month == 12 && date.Day <= 21):
+                    text += "Nhân Mã";
+                    break;
+                case var _ when (date.Month == 12 && date.Day >= 22) || (date.Month == 1 && date.Day <= 20):
+                    text += "Ma Kết";
+                    break;
+                case var _ when (date.Month == 1 && date.Day >= 21) || (date.Month == 2 && date.Day <= 19):
+                    text += "Bảo Bình";
+                    break;
+                case var _ when (date.Month == 2 && date.Day >= 20) || (date.Month == 3 && date.Day <= 20):
+                    text += "Song Ngư";
+                    break;
+            }
+            textBox3.Text = text;
         }
     }
 }
