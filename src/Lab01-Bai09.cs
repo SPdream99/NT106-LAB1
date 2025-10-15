@@ -22,7 +22,10 @@ namespace Lab1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            monAn.Add("Phở");
+            monAn.Add("Bún chả");
+            monAn.Add("Gỏi cuốn");
+            textBox2.Text = string.Join("\r\n", monAn);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,6 +34,10 @@ namespace Lab1
             textBox2.Clear();
             textBox3.Clear();
             monAn.Clear();
+            monAn.Add("Phở");
+            monAn.Add("Bún chả");
+            monAn.Add("Gỏi cuốn");
+            textBox2.Text = string.Join("\r\n", monAn);
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
