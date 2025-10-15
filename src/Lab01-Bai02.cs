@@ -25,11 +25,11 @@ namespace Lab1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
-            textBox4.Clear();
-            textBox2.Clear();
-            textBox3.Clear();
-            textBox5.Clear();
+            FirstText.Clear();
+            SecondText.Clear();
+            ThirdText.Clear();
+            ResultMax.Clear();
+            ResultMin.Clear();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -58,13 +58,13 @@ namespace Lab1
             try
             {
                 List<double> numbers = new List<double> { };
-                if (textBox1.Text != "") numbers.Add(double.Parse(textBox1.Text));
-                if (textBox4.Text != "") numbers.Add(double.Parse(textBox4.Text));
-                if (textBox2.Text != "") numbers.Add(double.Parse(textBox2.Text));
+                if (FirstText.Text != "") numbers.Add(double.Parse(FirstText.Text));
+                if (SecondText.Text != "") numbers.Add(double.Parse(SecondText.Text));
+                if (ThirdText.Text != "") numbers.Add(double.Parse(ThirdText.Text));
                 largest = numbers.Max();
                 smallest = numbers.Min();
-                textBox3.Text = largest.ToString();
-                textBox5.Text = smallest.ToString();
+                ResultMax.Text = largest.ToString();
+                ResultMin.Text = smallest.ToString();
             }
             catch (FormatException)
             {

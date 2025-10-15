@@ -69,7 +69,7 @@ namespace Lab1
             {
                 thanhTien -= gia * giaGhe;
             }
-            textBox5.Text = thanhTien.ToString("C", new CultureInfo("vi-VN"));
+            CostBox.Text = thanhTien.ToString("C", new CultureInfo("vi-VN"));
         }
 
         void seatShow()
@@ -78,8 +78,8 @@ namespace Lab1
             seatBox.ItemCheck += new ItemCheckEventHandler(updateTien);
             seatBox.Anchor = AnchorStyles.None;
             seatBox.Dock = DockStyle.Fill;
-            groupBox2.Controls.Clear();
-            groupBox2.Controls.Add(seatBox);
+            SeatPicker.Controls.Clear();
+            SeatPicker.Controls.Add(seatBox);
             for (int i = 0; i < seatList.Count; i++) 
             {
                 for (int j = 0; j < seatList[i].Count; j++)
@@ -87,7 +87,7 @@ namespace Lab1
                     seatBox.Items.Add($"{((char)(65+i))}{j+1}", false);
                 }
             }
-            groupBox2.Show();
+            SeatPicker.Show();
         }
 
         public Lab01_Bai05()
@@ -126,7 +126,7 @@ namespace Lab1
             });
             foreach (phim phim in phimList)
             {
-                comboBox1.Items.Add(phim.tenPhim);
+                MovieMenu.Items.Add(phim.tenPhim);
             }
             for (int i = 0; i < dayGhe; i++) {
                 seatList.Add(new List<seat>());
@@ -141,15 +141,15 @@ namespace Lab1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox3.Clear();
-            textBox5.Clear();
-            textBox1.Clear();
-            textBox2.Enabled = false;
-            textBox2.Hide();
-            comboBox1.SelectedIndex = -1;
-            groupBox2.Enabled = false;
-            comboBox2.Enabled = false;
-            groupBox2.Hide();
+            BasicCostBox.Clear();
+            CostBox.Clear();
+            CustomerNameBox.Clear();
+            BillBox.Enabled = false;
+            BillBox.Hide();
+            MovieMenu.SelectedIndex = -1;
+            SeatPicker.Enabled = false;
+            RoomMenu.Enabled = false;
+            SeatPicker.Hide();
             thanhTien = 0;
         }
 
@@ -185,26 +185,26 @@ namespace Lab1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            currentPhim = comboBox1.SelectedIndex;
-            comboBox2.SelectedIndex = -1;
-            comboBox2.Items.Clear();
+            currentPhim = MovieMenu.SelectedIndex;
+            RoomMenu.SelectedIndex = -1;
+            RoomMenu.Items.Clear();
             if (currentPhim < 0) return;
             foreach (int phong in phimList[currentPhim].phongPhim)
             {
-                comboBox2.Items.Add(phong);
+                RoomMenu.Items.Add(phong);
             }
-            comboBox2.SelectedIndex = 0;
-            comboBox2.Enabled = true;
+            RoomMenu.SelectedIndex = 0;
+            RoomMenu.Enabled = true;
             thanhTien = 0;
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (currentPhim < 0) return;
-            textBox3.Text = phimList[currentPhim].giaCoBan.ToString("C", new CultureInfo("vi-VN"));
+            BasicCostBox.Text = phimList[currentPhim].giaCoBan.ToString("C", new CultureInfo("vi-VN"));
             seatShow();
-            groupBox2.Enabled = true;
-            textBox5.Text = 0.ToString("C", new CultureInfo("vi-VN"));
+            SeatPicker.Enabled = true;
+            CostBox.Text = 0.ToString("C", new CultureInfo("vi-VN"));
             thanhTien = 0;
         }
 
@@ -213,18 +213,18 @@ namespace Lab1
             try
             {
                 if (currentPhim < 0) throw new Exception("Vui lòng chọn phim!");
-                if (textBox1.Text == "") throw new Exception("Vui lòng nhập tên khách");
+                if (CustomerNameBox.Text == "") throw new Exception("Vui lòng nhập tên khách");
                 if (seatBox.CheckedItems.Count <= 0) throw new Exception("Vui lòng chọn ghế ngồi!");
-                string hoaDon = $"--Hóa đơn--\r\nHọ tên người mua: {textBox1.Text}\r\nTên phim: {phimList[currentPhim].tenPhim}" +
-                    $"\r\nPhòng chiếu số {comboBox2.SelectedItem}\r\nVé đã chọn:";
+                string hoaDon = $"--Hóa đơn--\r\nHọ tên người mua: {CustomerNameBox.Text}\r\nTên phim: {phimList[currentPhim].tenPhim}" +
+                    $"\r\nPhòng chiếu số {RoomMenu.SelectedItem}\r\nVé đã chọn:";
                 foreach (string ve in seatBox.CheckedItems)
                 {
                     hoaDon += ve + " ";
                 }
-                hoaDon += $"\r\nTổng tiền: {textBox5.Text}";
-                textBox2.Text = hoaDon;
-                textBox2.Enabled = true;
-                textBox2.Show();
+                hoaDon += $"\r\nTổng tiền: {CostBox.Text}";
+                BillBox.Text = hoaDon;
+                BillBox.Enabled = true;
+                BillBox.Show();
             }
             catch (Exception ex)
             {

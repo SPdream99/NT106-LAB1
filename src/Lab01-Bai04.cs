@@ -49,8 +49,8 @@ namespace Lab1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            textBox1.Clear();
-            textBox3.Clear();
+            InputButton.Clear();
+            ResultBox.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -90,7 +90,7 @@ namespace Lab1
             }
             try
             {
-                string input = textBox1.Text;
+                string input = InputButton.Text;
                 while (input.Length > 1)
                 {
                     if (input[0] == '0') input = input.Substring(1);
@@ -136,7 +136,7 @@ namespace Lab1
                     }
                 }
                 t = t.Replace("Mươi Năm", "Mươi Lăm").Replace("Mười Năm", "Mười Lăm");
-                textBox3.Text = t;
+                ResultBox.Text = t;
             }
             catch (FormatException)
             {

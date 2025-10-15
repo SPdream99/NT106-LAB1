@@ -29,8 +29,8 @@ namespace Lab1
             long sum = 0;
             try
             {
-                num1 = Int32.Parse(textBox1.Text);
-                num2 = Int32.Parse(textBox2.Text);
+                num1 = Int32.Parse(FirstText.Text);
+                num2 = Int32.Parse(SecondText.Text);
             }
             catch (FormatException)
             {
@@ -38,7 +38,7 @@ namespace Lab1
                 return;
             }
             sum = num1 + num2;
-            textBox3.Text = sum.ToString();
+            ResultBox.Text = sum.ToString();
         }
     }
 }

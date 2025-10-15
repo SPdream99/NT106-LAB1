@@ -28,261 +28,261 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.RemoveButton = new System.Windows.Forms.Button();
+            this.Title = new System.Windows.Forms.Label();
+            this.InputBox = new System.Windows.Forms.TextBox();
+            this.InputLabel = new System.Windows.Forms.Label();
+            this.AvgBox = new System.Windows.Forms.TextBox();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.AddButton = new System.Windows.Forms.Button();
+            this.AvgLabel = new System.Windows.Forms.Label();
+            this.MaxLabel = new System.Windows.Forms.Label();
+            this.MaxBox = new System.Windows.Forms.TextBox();
+            this.MinLabel = new System.Windows.Forms.Label();
+            this.MinBox = new System.Windows.Forms.TextBox();
+            this.PassLabel = new System.Windows.Forms.Label();
+            this.PassBox = new System.Windows.Forms.TextBox();
+            this.FailLabel = new System.Windows.Forms.Label();
+            this.FailBox = new System.Windows.Forms.TextBox();
+            this.EvaluationLabel = new System.Windows.Forms.Label();
+            this.EvaluationBox = new System.Windows.Forms.TextBox();
+            this.NameLabel = new System.Windows.Forms.Label();
+            this.NameBox = new System.Windows.Forms.TextBox();
+            this.MarkTable = new System.Windows.Forms.TableLayoutPanel();
+            this.MarkPanel = new System.Windows.Forms.Panel();
+            this.MarkPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // RemoveButton
             // 
-            this.button1.BackColor = System.Drawing.Color.Gray;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button1.Location = new System.Drawing.Point(97, 196);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 49);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Xóa";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.RemoveButton.BackColor = System.Drawing.Color.Gray;
+            this.RemoveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemoveButton.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.RemoveButton.Location = new System.Drawing.Point(97, 196);
+            this.RemoveButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.RemoveButton.Name = "RemoveButton";
+            this.RemoveButton.Size = new System.Drawing.Size(101, 49);
+            this.RemoveButton.TabIndex = 0;
+            this.RemoveButton.Text = "Xóa";
+            this.RemoveButton.UseVisualStyleBackColor = false;
+            this.RemoveButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
+            // Title
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(342, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 36);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Mảng sinh viên";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Title.AutoSize = true;
+            this.Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Title.Location = new System.Drawing.Point(342, 28);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(231, 36);
+            this.Title.TabIndex = 1;
+            this.Title.Text = "Mảng sinh viên";
+            this.Title.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // InputBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(141, 143);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(740, 22);
-            this.textBox1.TabIndex = 2;
+            this.InputBox.Location = new System.Drawing.Point(141, 143);
+            this.InputBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.InputBox.Name = "InputBox";
+            this.InputBox.Size = new System.Drawing.Size(740, 22);
+            this.InputBox.TabIndex = 2;
             // 
-            // label2
+            // InputLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(47, 149);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 16);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Nhập mảng";
+            this.InputLabel.AutoSize = true;
+            this.InputLabel.Location = new System.Drawing.Point(47, 149);
+            this.InputLabel.Name = "InputLabel";
+            this.InputLabel.Size = new System.Drawing.Size(77, 16);
+            this.InputLabel.TabIndex = 3;
+            this.InputLabel.Text = "Nhập mảng";
             // 
-            // textBox3
+            // AvgBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(230, 605);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(202, 22);
-            this.textBox3.TabIndex = 6;
+            this.AvgBox.Location = new System.Drawing.Point(230, 605);
+            this.AvgBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.AvgBox.Name = "AvgBox";
+            this.AvgBox.ReadOnly = true;
+            this.AvgBox.Size = new System.Drawing.Size(202, 22);
+            this.AvgBox.TabIndex = 6;
             // 
-            // button2
+            // ExitButton
             // 
-            this.button2.BackColor = System.Drawing.Color.Gray;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button2.Location = new System.Drawing.Point(709, 196);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 49);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Thoát";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.ExitButton.BackColor = System.Drawing.Color.Gray;
+            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitButton.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.ExitButton.Location = new System.Drawing.Point(709, 196);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(100, 49);
+            this.ExitButton.TabIndex = 8;
+            this.ExitButton.Text = "Thoát";
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // AddButton
             // 
-            this.button3.BackColor = System.Drawing.Color.Gray;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button3.Location = new System.Drawing.Point(406, 196);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 49);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Thêm";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.AddButton.BackColor = System.Drawing.Color.Gray;
+            this.AddButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddButton.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.AddButton.Location = new System.Drawing.Point(406, 196);
+            this.AddButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.AddButton.Name = "AddButton";
+            this.AddButton.Size = new System.Drawing.Size(103, 49);
+            this.AddButton.TabIndex = 9;
+            this.AddButton.Text = "Thêm";
+            this.AddButton.UseVisualStyleBackColor = false;
+            this.AddButton.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label4
+            // AvgLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(35, 601);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(163, 25);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Điểm trung bình";
+            this.AvgLabel.AutoSize = true;
+            this.AvgLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AvgLabel.Location = new System.Drawing.Point(35, 601);
+            this.AvgLabel.Name = "AvgLabel";
+            this.AvgLabel.Size = new System.Drawing.Size(163, 25);
+            this.AvgLabel.TabIndex = 7;
+            this.AvgLabel.Text = "Điểm trung bình";
             // 
-            // label3
+            // MaxLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(35, 647);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 25);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Môn điểm cao nhất";
+            this.MaxLabel.AutoSize = true;
+            this.MaxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MaxLabel.Location = new System.Drawing.Point(35, 647);
+            this.MaxLabel.Name = "MaxLabel";
+            this.MaxLabel.Size = new System.Drawing.Size(195, 25);
+            this.MaxLabel.TabIndex = 11;
+            this.MaxLabel.Text = "Môn điểm cao nhất";
             // 
-            // textBox2
+            // MaxBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(251, 651);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(181, 22);
-            this.textBox2.TabIndex = 10;
+            this.MaxBox.Location = new System.Drawing.Point(251, 651);
+            this.MaxBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaxBox.Name = "MaxBox";
+            this.MaxBox.ReadOnly = true;
+            this.MaxBox.Size = new System.Drawing.Size(181, 22);
+            this.MaxBox.TabIndex = 10;
             // 
-            // label5
+            // MinLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(35, 692);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(202, 25);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Môn điểm thấp nhất";
+            this.MinLabel.AutoSize = true;
+            this.MinLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MinLabel.Location = new System.Drawing.Point(35, 692);
+            this.MinLabel.Name = "MinLabel";
+            this.MinLabel.Size = new System.Drawing.Size(202, 25);
+            this.MinLabel.TabIndex = 13;
+            this.MinLabel.Text = "Môn điểm thấp nhất";
             // 
-            // textBox4
+            // MinBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(268, 696);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(164, 22);
-            this.textBox4.TabIndex = 12;
+            this.MinBox.Location = new System.Drawing.Point(268, 696);
+            this.MinBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinBox.Name = "MinBox";
+            this.MinBox.ReadOnly = true;
+            this.MinBox.Size = new System.Drawing.Size(164, 22);
+            this.MinBox.TabIndex = 12;
             // 
-            // label6
+            // PassLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(462, 601);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(128, 25);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Số môn đậu";
+            this.PassLabel.AutoSize = true;
+            this.PassLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PassLabel.Location = new System.Drawing.Point(462, 601);
+            this.PassLabel.Name = "PassLabel";
+            this.PassLabel.Size = new System.Drawing.Size(128, 25);
+            this.PassLabel.TabIndex = 15;
+            this.PassLabel.Text = "Số môn đậu";
             // 
-            // textBox5
+            // PassBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(661, 605);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(198, 22);
-            this.textBox5.TabIndex = 14;
+            this.PassBox.Location = new System.Drawing.Point(661, 605);
+            this.PassBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PassBox.Name = "PassBox";
+            this.PassBox.ReadOnly = true;
+            this.PassBox.Size = new System.Drawing.Size(198, 22);
+            this.PassBox.TabIndex = 14;
             // 
-            // label7
+            // FailLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(462, 651);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(193, 25);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Số môn không đậu";
+            this.FailLabel.AutoSize = true;
+            this.FailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FailLabel.Location = new System.Drawing.Point(462, 651);
+            this.FailLabel.Name = "FailLabel";
+            this.FailLabel.Size = new System.Drawing.Size(193, 25);
+            this.FailLabel.TabIndex = 17;
+            this.FailLabel.Text = "Số môn không đậu";
             // 
-            // textBox6
+            // FailBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(688, 655);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(171, 22);
-            this.textBox6.TabIndex = 16;
+            this.FailBox.Location = new System.Drawing.Point(688, 655);
+            this.FailBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FailBox.Name = "FailBox";
+            this.FailBox.ReadOnly = true;
+            this.FailBox.Size = new System.Drawing.Size(171, 22);
+            this.FailBox.TabIndex = 16;
             // 
-            // label8
+            // EvaluationLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(462, 696);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 25);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "Xếp loại";
+            this.EvaluationLabel.AutoSize = true;
+            this.EvaluationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EvaluationLabel.Location = new System.Drawing.Point(462, 696);
+            this.EvaluationLabel.Name = "EvaluationLabel";
+            this.EvaluationLabel.Size = new System.Drawing.Size(91, 25);
+            this.EvaluationLabel.TabIndex = 19;
+            this.EvaluationLabel.Text = "Xếp loại";
             // 
-            // textBox7
+            // EvaluationBox
             // 
-            this.textBox7.Location = new System.Drawing.Point(631, 700);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(228, 22);
-            this.textBox7.TabIndex = 18;
+            this.EvaluationBox.Location = new System.Drawing.Point(631, 700);
+            this.EvaluationBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.EvaluationBox.Name = "EvaluationBox";
+            this.EvaluationBox.ReadOnly = true;
+            this.EvaluationBox.Size = new System.Drawing.Size(228, 22);
+            this.EvaluationBox.TabIndex = 18;
             // 
-            // label9
+            // NameLabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(35, 261);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(104, 25);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "Họ và tên";
+            this.NameLabel.AutoSize = true;
+            this.NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameLabel.Location = new System.Drawing.Point(35, 261);
+            this.NameLabel.Name = "NameLabel";
+            this.NameLabel.Size = new System.Drawing.Size(104, 25);
+            this.NameLabel.TabIndex = 21;
+            this.NameLabel.Text = "Họ và tên";
             // 
-            // textBox8
+            // NameBox
             // 
-            this.textBox8.Location = new System.Drawing.Point(204, 265);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(228, 22);
-            this.textBox8.TabIndex = 20;
+            this.NameBox.Location = new System.Drawing.Point(204, 265);
+            this.NameBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.NameBox.Name = "NameBox";
+            this.NameBox.ReadOnly = true;
+            this.NameBox.Size = new System.Drawing.Size(228, 22);
+            this.NameBox.TabIndex = 20;
             // 
-            // tableLayoutPanel1
+            // MarkTable
             // 
-            this.tableLayoutPanel1.AutoSize = true;
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.13692F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.86308F));
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(3);
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(852, 28);
-            this.tableLayoutPanel1.TabIndex = 22;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            this.MarkTable.AutoSize = true;
+            this.MarkTable.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.MarkTable.ColumnCount = 2;
+            this.MarkTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.13692F));
+            this.MarkTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.86308F));
+            this.MarkTable.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MarkTable.Location = new System.Drawing.Point(0, 0);
+            this.MarkTable.Margin = new System.Windows.Forms.Padding(0);
+            this.MarkTable.Name = "MarkTable";
+            this.MarkTable.Padding = new System.Windows.Forms.Padding(3);
+            this.MarkTable.RowCount = 1;
+            this.MarkTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.MarkTable.Size = new System.Drawing.Size(852, 29);
+            this.MarkTable.TabIndex = 22;
+            this.MarkTable.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
-            // panel1
+            // MarkPanel
             // 
-            this.panel1.AutoScroll = true;
-            this.panel1.Controls.Add(this.tableLayoutPanel1);
-            this.panel1.Location = new System.Drawing.Point(28, 301);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(852, 286);
-            this.panel1.TabIndex = 23;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.MarkPanel.AutoScroll = true;
+            this.MarkPanel.Controls.Add(this.MarkTable);
+            this.MarkPanel.Location = new System.Drawing.Point(28, 301);
+            this.MarkPanel.Name = "MarkPanel";
+            this.MarkPanel.Size = new System.Drawing.Size(852, 286);
+            this.MarkPanel.TabIndex = 23;
+            this.MarkPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Lab01_Bai08
             // 
@@ -290,33 +290,33 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(907, 749);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.MarkPanel);
+            this.Controls.Add(this.NameLabel);
+            this.Controls.Add(this.NameBox);
+            this.Controls.Add(this.EvaluationLabel);
+            this.Controls.Add(this.EvaluationBox);
+            this.Controls.Add(this.FailLabel);
+            this.Controls.Add(this.FailBox);
+            this.Controls.Add(this.PassLabel);
+            this.Controls.Add(this.PassBox);
+            this.Controls.Add(this.MinLabel);
+            this.Controls.Add(this.MinBox);
+            this.Controls.Add(this.MaxLabel);
+            this.Controls.Add(this.MaxBox);
+            this.Controls.Add(this.AddButton);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.AvgLabel);
+            this.Controls.Add(this.AvgBox);
+            this.Controls.Add(this.InputLabel);
+            this.Controls.Add(this.InputBox);
+            this.Controls.Add(this.Title);
+            this.Controls.Add(this.RemoveButton);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Lab01_Bai08";
             this.Text = "Bai8";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.MarkPanel.ResumeLayout(false);
+            this.MarkPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -324,28 +324,28 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button RemoveButton;
+        private System.Windows.Forms.Label Title;
+        private System.Windows.Forms.TextBox InputBox;
+        private System.Windows.Forms.Label InputLabel;
+        private System.Windows.Forms.TextBox AvgBox;
+        private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Button AddButton;
+        private System.Windows.Forms.Label AvgLabel;
+        private System.Windows.Forms.Label MaxLabel;
+        private System.Windows.Forms.TextBox MaxBox;
+        private System.Windows.Forms.Label MinLabel;
+        private System.Windows.Forms.TextBox MinBox;
+        private System.Windows.Forms.Label PassLabel;
+        private System.Windows.Forms.TextBox PassBox;
+        private System.Windows.Forms.Label FailLabel;
+        private System.Windows.Forms.TextBox FailBox;
+        private System.Windows.Forms.Label EvaluationLabel;
+        private System.Windows.Forms.TextBox EvaluationBox;
+        private System.Windows.Forms.Label NameLabel;
+        private System.Windows.Forms.TextBox NameBox;
+        private System.Windows.Forms.TableLayoutPanel MarkTable;
+        private System.Windows.Forms.Panel MarkPanel;
     }
 }
 

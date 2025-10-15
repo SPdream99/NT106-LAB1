@@ -25,19 +25,19 @@ namespace Lab1
             monAn.Add("Phở");
             monAn.Add("Bún chả");
             monAn.Add("Gỏi cuốn");
-            textBox2.Text = string.Join("\r\n", monAn);
+            FoodMenu.Text = string.Join("\r\n", monAn);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
-            textBox2.Clear();
-            textBox3.Clear();
+            InputBox.Clear();
+            FoodMenu.Clear();
+            ResultBox.Clear();
             monAn.Clear();
             monAn.Add("Phở");
             monAn.Add("Bún chả");
             monAn.Add("Gỏi cuốn");
-            textBox2.Text = string.Join("\r\n", monAn);
+            FoodMenu.Text = string.Join("\r\n", monAn);
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -67,15 +67,15 @@ namespace Lab1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (!monAn.Contains(textBox1.Text)) monAn.Add(textBox1.Text);
+            if (!monAn.Contains(InputBox.Text)) monAn.Add(InputBox.Text);
             else MessageBox.Show("Món ăn đã tồn tại!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            textBox2.Text = string.Join("\r\n", monAn);
-            textBox1.Focus();
+            FoodMenu.Text = string.Join("\r\n", monAn);
+            InputBox.Focus();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox3.Text = monAn[new Random().Next(0, monAn.Count)];
+            ResultBox.Text = monAn[new Random().Next(0, monAn.Count)];
         }
     }
 }

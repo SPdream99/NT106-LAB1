@@ -20,14 +20,14 @@ namespace Lab1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            groupBox1.Hide();
+            ResultGroup.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
-            textBox4.Clear();
-            groupBox1.Hide();
+            NumABox.Clear();
+            NumBBox.Clear();
+            ResultGroup.Hide();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -73,9 +73,9 @@ namespace Lab1
             }
             try
             {
-                int a = int.Parse(textBox1.Text);
-                int b = int.Parse(textBox4.Text);
-                int mode = comboBox1.SelectedIndex;
+                int a = int.Parse(NumABox.Text);
+                int b = int.Parse(NumBBox.Text);
+                int mode = ModePicker.SelectedIndex;
                 if (mode == -1)
                 {
                     MessageBox.Show("Vui lòng chọn phương thức tính toán", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -83,7 +83,7 @@ namespace Lab1
                 }
                 else if (mode == 0)
                 {
-                    tableLayoutPanel1.Controls.Clear();
+                    BangCuuChuong.Controls.Clear();
                     int num = b - a;
                     for (int i = 1; i < 10; i++)
                     {
@@ -91,7 +91,7 @@ namespace Lab1
                         label.Text = num.ToString() + " x " + i.ToString();
                         label.Anchor = AnchorStyles.None;
                         label.TextAlign = ContentAlignment.MiddleCenter;
-                        tableLayoutPanel1.Controls.Add(label);
+                        BangCuuChuong.Controls.Add(label);
                     }
                     for (int i = 1; i < 10; i++)
                     {
@@ -99,28 +99,28 @@ namespace Lab1
                         label.Text = (num*i).ToString();
                         label.Anchor = AnchorStyles.None;
                         label.TextAlign = ContentAlignment.MiddleCenter;
-                        tableLayoutPanel1.Controls.Add(label);
+                        BangCuuChuong.Controls.Add(label);
                     }
-                    textBox2.Hide();
-                    textBox3.Hide();
-                    label3.Hide();
-                    label4.Hide();
-                    tableLayoutPanel1.Show();
-                    groupBox1.Show();
+                    FirstFormulaBox.Hide();
+                    SecondFormulaBox.Hide();
+                    FirstFormula.Hide();
+                    SecondFormula.Hide();
+                    BangCuuChuong.Show();
+                    ResultGroup.Show();
                     return;
                 }
                 else if (mode == 1)
                 {
-                    label3.Text = String.Format("{0}! =", a - b);
-                    label4.Text = String.Format("Tổng S với {0}^{1} =", a, b);
-                    textBox2.Text = ((a-b >= 0) ? tinhGiaiThua(a-b).ToString() : "Số âm không có giai thừa");
-                    textBox3.Text = ((b>=1)? (tinhTongMu(a, b)).ToString() : "Số b âm không tính từ mũ từ 1 được");
-                    tableLayoutPanel1.Hide();
-                    textBox2.Show();
-                    textBox3.Show();
-                    label3.Show();
-                    label4.Show();
-                    groupBox1.Show();
+                    FirstFormula.Text = String.Format("{0}! =", a - b);
+                    SecondFormula.Text = String.Format("Tổng S với {0}^{1} =", a, b);
+                    FirstFormulaBox.Text = ((a-b >= 0) ? tinhGiaiThua(a-b).ToString() : "Số âm không có giai thừa");
+                    SecondFormulaBox.Text = ((b>=1)? (tinhTongMu(a, b)).ToString() : "Số b âm không tính từ mũ từ 1 được");
+                    BangCuuChuong.Hide();
+                    FirstFormulaBox.Show();
+                    SecondFormulaBox.Show();
+                    FirstFormula.Show();
+                    SecondFormula.Show();
+                    ResultGroup.Show();
                     return;
                 }
             }

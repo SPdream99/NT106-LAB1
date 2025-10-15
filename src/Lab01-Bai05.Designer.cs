@@ -28,219 +28,219 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.groupBox1.SuspendLayout();
+            this.RemoveButton = new System.Windows.Forms.Button();
+            this.Title = new System.Windows.Forms.Label();
+            this.MovieLabel = new System.Windows.Forms.Label();
+            this.BasicCostBox = new System.Windows.Forms.TextBox();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.ExportButton = new System.Windows.Forms.Button();
+            this.RoomLabel = new System.Windows.Forms.Label();
+            this.BasicCostLabel = new System.Windows.Forms.Label();
+            this.CostLabel = new System.Windows.Forms.Label();
+            this.CostBox = new System.Windows.Forms.TextBox();
+            this.SeatPickerGroup = new System.Windows.Forms.GroupBox();
+            this.ScreenText = new System.Windows.Forms.Label();
+            this.SeatPicker = new System.Windows.Forms.GroupBox();
+            this.MovieMenu = new System.Windows.Forms.ComboBox();
+            this.RoomMenu = new System.Windows.Forms.ComboBox();
+            this.CustomerNameLabel = new System.Windows.Forms.Label();
+            this.CustomerNameBox = new System.Windows.Forms.TextBox();
+            this.BillBox = new System.Windows.Forms.TextBox();
+            this.SeatPickerGroup.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // RemoveButton
             // 
-            this.button1.BackColor = System.Drawing.Color.Gray;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button1.Location = new System.Drawing.Point(175, 685);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 49);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Xóa";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.RemoveButton.BackColor = System.Drawing.Color.Gray;
+            this.RemoveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemoveButton.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.RemoveButton.Location = new System.Drawing.Point(175, 685);
+            this.RemoveButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.RemoveButton.Name = "RemoveButton";
+            this.RemoveButton.Size = new System.Drawing.Size(101, 49);
+            this.RemoveButton.TabIndex = 0;
+            this.RemoveButton.Text = "Xóa";
+            this.RemoveButton.UseVisualStyleBackColor = false;
+            this.RemoveButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
+            // Title
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(358, 5);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 36);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Rạp";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Title.AutoSize = true;
+            this.Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Title.Location = new System.Drawing.Point(358, 5);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(73, 36);
+            this.Title.TabIndex = 1;
+            this.Title.Text = "Rạp";
+            this.Title.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // MovieLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(55, 65);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 16);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Phim";
+            this.MovieLabel.AutoSize = true;
+            this.MovieLabel.Location = new System.Drawing.Point(55, 65);
+            this.MovieLabel.Name = "MovieLabel";
+            this.MovieLabel.Size = new System.Drawing.Size(37, 16);
+            this.MovieLabel.TabIndex = 3;
+            this.MovieLabel.Text = "Phim";
             // 
-            // textBox3
+            // BasicCostBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(223, 115);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(97, 22);
-            this.textBox3.TabIndex = 6;
+            this.BasicCostBox.Location = new System.Drawing.Point(223, 115);
+            this.BasicCostBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BasicCostBox.Name = "BasicCostBox";
+            this.BasicCostBox.ReadOnly = true;
+            this.BasicCostBox.Size = new System.Drawing.Size(97, 22);
+            this.BasicCostBox.TabIndex = 6;
             // 
-            // button2
+            // ExitButton
             // 
-            this.button2.BackColor = System.Drawing.Color.Gray;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button2.Location = new System.Drawing.Point(309, 685);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 49);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Thoát";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.ExitButton.BackColor = System.Drawing.Color.Gray;
+            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitButton.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.ExitButton.Location = new System.Drawing.Point(309, 685);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(100, 49);
+            this.ExitButton.TabIndex = 8;
+            this.ExitButton.Text = "Thoát";
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // ExportButton
             // 
-            this.button3.BackColor = System.Drawing.Color.Gray;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button3.Location = new System.Drawing.Point(31, 685);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 49);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Xuất";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.ExportButton.BackColor = System.Drawing.Color.Gray;
+            this.ExportButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExportButton.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.ExportButton.Location = new System.Drawing.Point(31, 685);
+            this.ExportButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ExportButton.Name = "ExportButton";
+            this.ExportButton.Size = new System.Drawing.Size(103, 49);
+            this.ExportButton.TabIndex = 9;
+            this.ExportButton.Text = "Xuất";
+            this.ExportButton.UseVisualStyleBackColor = false;
+            this.ExportButton.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label5
+            // RoomLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(381, 71);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 16);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Phòng";
+            this.RoomLabel.AutoSize = true;
+            this.RoomLabel.Location = new System.Drawing.Point(381, 71);
+            this.RoomLabel.Name = "RoomLabel";
+            this.RoomLabel.Size = new System.Drawing.Size(46, 16);
+            this.RoomLabel.TabIndex = 11;
+            this.RoomLabel.Text = "Phòng";
             // 
-            // label4
+            // BasicCostLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(53, 116);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(145, 25);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Giá vé cơ bản";
+            this.BasicCostLabel.AutoSize = true;
+            this.BasicCostLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BasicCostLabel.Location = new System.Drawing.Point(53, 116);
+            this.BasicCostLabel.Name = "BasicCostLabel";
+            this.BasicCostLabel.Size = new System.Drawing.Size(145, 25);
+            this.BasicCostLabel.TabIndex = 7;
+            this.BasicCostLabel.Text = "Giá vé cơ bản";
             // 
-            // label6
+            // CostLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(420, 714);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(122, 25);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Thanh toán";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.CostLabel.AutoSize = true;
+            this.CostLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CostLabel.Location = new System.Drawing.Point(420, 714);
+            this.CostLabel.Name = "CostLabel";
+            this.CostLabel.Size = new System.Drawing.Size(122, 25);
+            this.CostLabel.TabIndex = 13;
+            this.CostLabel.Text = "Thanh toán";
+            this.CostLabel.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox5
+            // CostBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(563, 712);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(208, 22);
-            this.textBox5.TabIndex = 12;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.CostBox.Location = new System.Drawing.Point(563, 712);
+            this.CostBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CostBox.Name = "CostBox";
+            this.CostBox.ReadOnly = true;
+            this.CostBox.Size = new System.Drawing.Size(208, 22);
+            this.CostBox.TabIndex = 12;
+            this.CostBox.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
-            // groupBox1
+            // SeatPickerGroup
             // 
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Location = new System.Drawing.Point(25, 156);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(746, 510);
-            this.groupBox1.TabIndex = 14;
-            this.groupBox1.TabStop = false;
+            this.SeatPickerGroup.Controls.Add(this.ScreenText);
+            this.SeatPickerGroup.Controls.Add(this.SeatPicker);
+            this.SeatPickerGroup.Location = new System.Drawing.Point(25, 156);
+            this.SeatPickerGroup.Name = "SeatPickerGroup";
+            this.SeatPickerGroup.Size = new System.Drawing.Size(746, 510);
+            this.SeatPickerGroup.TabIndex = 14;
+            this.SeatPickerGroup.TabStop = false;
             // 
-            // label3
+            // ScreenText
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(349, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 25);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Screen";
+            this.ScreenText.AutoSize = true;
+            this.ScreenText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ScreenText.Location = new System.Drawing.Point(349, 18);
+            this.ScreenText.Name = "ScreenText";
+            this.ScreenText.Size = new System.Drawing.Size(75, 25);
+            this.ScreenText.TabIndex = 1;
+            this.ScreenText.Text = "Screen";
             // 
-            // groupBox2
+            // SeatPicker
             // 
-            this.groupBox2.Enabled = false;
-            this.groupBox2.Location = new System.Drawing.Point(3, 56);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(745, 453);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Visible = false;
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            this.SeatPicker.Enabled = false;
+            this.SeatPicker.Location = new System.Drawing.Point(3, 56);
+            this.SeatPicker.Name = "SeatPicker";
+            this.SeatPicker.Size = new System.Drawing.Size(745, 453);
+            this.SeatPicker.TabIndex = 0;
+            this.SeatPicker.TabStop = false;
+            this.SeatPicker.Visible = false;
+            this.SeatPicker.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // comboBox1
+            // MovieMenu
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(105, 60);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(204, 24);
-            this.comboBox1.TabIndex = 15;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.MovieMenu.FormattingEnabled = true;
+            this.MovieMenu.Location = new System.Drawing.Point(105, 60);
+            this.MovieMenu.Name = "MovieMenu";
+            this.MovieMenu.Size = new System.Drawing.Size(204, 24);
+            this.MovieMenu.TabIndex = 15;
+            this.MovieMenu.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // comboBox2
+            // RoomMenu
             // 
-            this.comboBox2.Enabled = false;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(428, 63);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(204, 24);
-            this.comboBox2.TabIndex = 16;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.RoomMenu.Enabled = false;
+            this.RoomMenu.FormattingEnabled = true;
+            this.RoomMenu.Location = new System.Drawing.Point(428, 63);
+            this.RoomMenu.Name = "RoomMenu";
+            this.RoomMenu.Size = new System.Drawing.Size(204, 24);
+            this.RoomMenu.TabIndex = 16;
+            this.RoomMenu.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // label7
+            // CustomerNameLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(359, 117);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(168, 25);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Tên khách hàng";
+            this.CustomerNameLabel.AutoSize = true;
+            this.CustomerNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerNameLabel.Location = new System.Drawing.Point(359, 117);
+            this.CustomerNameLabel.Name = "CustomerNameLabel";
+            this.CustomerNameLabel.Size = new System.Drawing.Size(168, 25);
+            this.CustomerNameLabel.TabIndex = 18;
+            this.CustomerNameLabel.Text = "Tên khách hàng";
             // 
-            // textBox1
+            // CustomerNameBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(543, 114);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(228, 22);
-            this.textBox1.TabIndex = 17;
+            this.CustomerNameBox.Location = new System.Drawing.Point(543, 114);
+            this.CustomerNameBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CustomerNameBox.Name = "CustomerNameBox";
+            this.CustomerNameBox.Size = new System.Drawing.Size(228, 22);
+            this.CustomerNameBox.TabIndex = 17;
             // 
-            // textBox2
+            // BillBox
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(146, 766);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(503, 153);
-            this.textBox2.TabIndex = 19;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox2.Visible = false;
+            this.BillBox.Enabled = false;
+            this.BillBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BillBox.Location = new System.Drawing.Point(146, 766);
+            this.BillBox.Multiline = true;
+            this.BillBox.Name = "BillBox";
+            this.BillBox.ReadOnly = true;
+            this.BillBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.BillBox.Size = new System.Drawing.Size(503, 153);
+            this.BillBox.TabIndex = 19;
+            this.BillBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.BillBox.Visible = false;
             // 
             // Lab01_Bai05
             // 
@@ -249,29 +249,29 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(803, 953);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BillBox);
+            this.Controls.Add(this.CustomerNameLabel);
+            this.Controls.Add(this.CustomerNameBox);
+            this.Controls.Add(this.RoomMenu);
+            this.Controls.Add(this.MovieMenu);
+            this.Controls.Add(this.SeatPickerGroup);
+            this.Controls.Add(this.CostLabel);
+            this.Controls.Add(this.CostBox);
+            this.Controls.Add(this.RoomLabel);
+            this.Controls.Add(this.ExportButton);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.BasicCostLabel);
+            this.Controls.Add(this.BasicCostBox);
+            this.Controls.Add(this.MovieLabel);
+            this.Controls.Add(this.Title);
+            this.Controls.Add(this.RemoveButton);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Lab01_Bai05";
             this.Padding = new System.Windows.Forms.Padding(5);
             this.Text = "Bai5";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.SeatPickerGroup.ResumeLayout(false);
+            this.SeatPickerGroup.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -279,24 +279,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button RemoveButton;
+        private System.Windows.Forms.Label Title;
+        private System.Windows.Forms.Label MovieLabel;
+        private System.Windows.Forms.TextBox BasicCostBox;
+        private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Button ExportButton;
+        private System.Windows.Forms.Label RoomLabel;
+        private System.Windows.Forms.Label CostLabel;
+        private System.Windows.Forms.TextBox CostBox;
+        private System.Windows.Forms.GroupBox SeatPickerGroup;
+        private System.Windows.Forms.ComboBox MovieMenu;
+        private System.Windows.Forms.ComboBox RoomMenu;
+        private System.Windows.Forms.GroupBox SeatPicker;
+        private System.Windows.Forms.Label ScreenText;
+        private System.Windows.Forms.Label CustomerNameLabel;
+        private System.Windows.Forms.TextBox CustomerNameBox;
+        private System.Windows.Forms.Label BasicCostLabel;
+        private System.Windows.Forms.TextBox BillBox;
     }
 }
 

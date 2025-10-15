@@ -25,7 +25,7 @@ namespace Lab1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox3.Clear();
+            ResultBox.Clear();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace Lab1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            DateTime date = dateTimePicker1.Value;
+            DateTime date = DatePicker.Value;
             string text = "cung ";
             switch (date)
             {
@@ -96,7 +96,7 @@ namespace Lab1
                     text += "Song Ngư";
                     break;
             }
-            textBox3.Text = text;
+            ResultBox.Text = text;
         }
     }
 }

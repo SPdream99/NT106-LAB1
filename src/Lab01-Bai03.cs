@@ -26,8 +26,8 @@ namespace Lab1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
-            textBox3.Clear();
+            InputBox.Clear();
+            ResultBox.Clear();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace Lab1
         {
             try
             {
-                int i = Int16.Parse(textBox1.Text);
+                int i = Int16.Parse(InputBox.Text);
                 string t = "";
                 switch (i)
                 {
@@ -91,7 +91,7 @@ namespace Lab1
                     default:
                         throw new FormatException();
                 }
-                textBox3.Text = t;
+                ResultBox.Text = t;
             }
             catch (FormatException)
             {
