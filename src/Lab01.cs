@@ -17,55 +17,55 @@ namespace Lab1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Bai1Button_Click(object sender, EventArgs e)
         {
             var form = new Lab01_Bai01();
             form.ShowDialog();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Bai2Button_Click(object sender, EventArgs e)
         {
             var form = new Lab01_Bai02();
             form.ShowDialog();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Bai3Button_Click(object sender, EventArgs e)
         {
             var form = new Lab01_Bai03();
             form.ShowDialog();
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
+        private void Bai4Button_Click(object sender, EventArgs e)
         {
             var form = new Lab01_Bai04();
             form.ShowDialog();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void Bai5Button_Click(object sender, EventArgs e)
         {
             var form = new Lab01_Bai05();
             form.ShowDialog();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void Bai6Button_Click(object sender, EventArgs e)
         {
             var form = new Lab01_Bai06();
             form.ShowDialog();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void Bai7Button_Click(object sender, EventArgs e)
         {
             var form = new Lab01_Bai07();
             form.ShowDialog();
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void Bai8Button_Click(object sender, EventArgs e)
         {
             var form = new Lab01_Bai08();
             form.ShowDialog();
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void Bai9Button_Click(object sender, EventArgs e)
         {
             var form = new Lab01_Bai09();
             form.ShowDialog();

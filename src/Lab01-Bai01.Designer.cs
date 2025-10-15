@@ -50,7 +50,7 @@
             this.CalculateButton.TabIndex = 0;
             this.CalculateButton.Text = "Tính";
             this.CalculateButton.UseVisualStyleBackColor = false;
-            this.CalculateButton.Click += new System.EventHandler(this.button1_Click);
+            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // Title
             // 

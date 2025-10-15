@@ -76,7 +76,6 @@
             this.Title.Size = new System.Drawing.Size(231, 36);
             this.Title.TabIndex = 1;
             this.Title.Text = "Mảng sinh viên";
-            this.Title.Click += new System.EventHandler(this.label1_Click);
             // 
             // InputBox
             // 
@@ -272,7 +271,6 @@
             this.MarkTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
             this.MarkTable.Size = new System.Drawing.Size(852, 29);
             this.MarkTable.TabIndex = 22;
-            this.MarkTable.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // MarkPanel
             // 
@@ -282,7 +280,6 @@
             this.MarkPanel.Name = "MarkPanel";
             this.MarkPanel.Size = new System.Drawing.Size(852, 286);
             this.MarkPanel.TabIndex = 23;
-            this.MarkPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Lab01_Bai08
             // 

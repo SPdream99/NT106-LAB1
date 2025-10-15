@@ -23,7 +23,7 @@ namespace Lab1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RemoveButton_Click(object sender, EventArgs e)
         {
             FirstText.Clear();
             SecondText.Clear();
@@ -32,27 +32,7 @@ namespace Lab1
             ResultMin.Clear();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void FindButton_Click(object sender, EventArgs e)
         {
             double largest, smallest;
             try
@@ -78,7 +58,7 @@ namespace Lab1
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             Close();
         }

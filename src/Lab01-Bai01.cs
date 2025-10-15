@@ -23,7 +23,7 @@ namespace Lab1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CalculateButton_Click(object sender, EventArgs e)
         {
             int num1, num2;
             long sum = 0;

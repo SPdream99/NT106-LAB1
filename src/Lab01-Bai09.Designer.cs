@@ -63,7 +63,6 @@
             this.Title.Size = new System.Drawing.Size(236, 36);
             this.Title.TabIndex = 1;
             this.Title.Text = "Hôm nay ăn gì?";
-            this.Title.Click += new System.EventHandler(this.label1_Click);
             // 
             // InputBox
             // 

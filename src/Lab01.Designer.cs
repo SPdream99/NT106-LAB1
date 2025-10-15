@@ -49,7 +49,7 @@
             this.Bai1Button.TabIndex = 0;
             this.Bai1Button.Text = "Bài 1";
             this.Bai1Button.UseVisualStyleBackColor = true;
-            this.Bai1Button.Click += new System.EventHandler(this.button1_Click);
+            this.Bai1Button.Click += new System.EventHandler(this.Bai1Button_Click);
             // 
             // Bai2Button
             // 
@@ -61,7 +61,7 @@
             this.Bai2Button.TabIndex = 1;
             this.Bai2Button.Text = "Bài 2";
             this.Bai2Button.UseVisualStyleBackColor = true;
-            this.Bai2Button.Click += new System.EventHandler(this.button2_Click);
+            this.Bai2Button.Click += new System.EventHandler(this.Bai2Button_Click);
             // 
             // Bai3Button
             // 
@@ -73,7 +73,7 @@
             this.Bai3Button.TabIndex = 2;
             this.Bai3Button.Text = "Bài 3";
             this.Bai3Button.UseVisualStyleBackColor = true;
-            this.Bai3Button.Click += new System.EventHandler(this.button3_Click);
+            this.Bai3Button.Click += new System.EventHandler(this.Bai3Button_Click);
             // 
             // Bai4Button
             // 
@@ -85,7 +85,7 @@
             this.Bai4Button.TabIndex = 2;
             this.Bai4Button.Text = "Bài 3.1 (4)";
             this.Bai4Button.UseVisualStyleBackColor = true;
-            this.Bai4Button.Click += new System.EventHandler(this.button4_Click_1);
+            this.Bai4Button.Click += new System.EventHandler(this.Bai4Button_Click);
             // 
             // Bai5Button
             // 
@@ -97,7 +97,7 @@
             this.Bai5Button.TabIndex = 3;
             this.Bai5Button.Text = "Bài 5";
             this.Bai5Button.UseVisualStyleBackColor = true;
-            this.Bai5Button.Click += new System.EventHandler(this.button5_Click);
+            this.Bai5Button.Click += new System.EventHandler(this.Bai5Button_Click);
             // 
             // Bai6Button
             // 
@@ -109,7 +109,7 @@
             this.Bai6Button.TabIndex = 4;
             this.Bai6Button.Text = "Bài 6";
             this.Bai6Button.UseVisualStyleBackColor = true;
-            this.Bai6Button.Click += new System.EventHandler(this.button6_Click);
+            this.Bai6Button.Click += new System.EventHandler(this.Bai6Button_Click);
             // 
             // Bai7Button
             // 
@@ -121,7 +121,7 @@
             this.Bai7Button.TabIndex = 5;
             this.Bai7Button.Text = "Bài 7";
             this.Bai7Button.UseVisualStyleBackColor = true;
-            this.Bai7Button.Click += new System.EventHandler(this.button7_Click);
+            this.Bai7Button.Click += new System.EventHandler(this.Bai7Button_Click);
             // 
             // Bai8Button
             // 
@@ -133,7 +133,7 @@
             this.Bai8Button.TabIndex = 6;
             this.Bai8Button.Text = "Bài 8";
             this.Bai8Button.UseVisualStyleBackColor = true;
-            this.Bai8Button.Click += new System.EventHandler(this.button8_Click);
+            this.Bai8Button.Click += new System.EventHandler(this.Bai8Button_Click);
             // 
             // Bai9Button
             // 
@@ -145,7 +145,7 @@
             this.Bai9Button.TabIndex = 7;
             this.Bai9Button.Text = "Bài 9";
             this.Bai9Button.UseVisualStyleBackColor = true;
-            this.Bai9Button.Click += new System.EventHandler(this.button9_Click);
+            this.Bai9Button.Click += new System.EventHandler(this.Bai9Button_Click);
             // 
             // Lab01
             // 

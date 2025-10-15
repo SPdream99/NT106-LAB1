@@ -72,7 +72,6 @@
             this.Title.Size = new System.Drawing.Size(73, 36);
             this.Title.TabIndex = 1;
             this.Title.Text = "Rạp";
-            this.Title.Click += new System.EventHandler(this.label1_Click);
             // 
             // MovieLabel
             // 
@@ -148,7 +147,6 @@
             this.CostLabel.Size = new System.Drawing.Size(122, 25);
             this.CostLabel.TabIndex = 13;
             this.CostLabel.Text = "Thanh toán";
-            this.CostLabel.Click += new System.EventHandler(this.label6_Click);
             // 
             // CostBox
             // 
@@ -158,7 +156,6 @@
             this.CostBox.ReadOnly = true;
             this.CostBox.Size = new System.Drawing.Size(208, 22);
             this.CostBox.TabIndex = 12;
-            this.CostBox.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // SeatPickerGroup
             // 
@@ -189,7 +186,6 @@
             this.SeatPicker.TabIndex = 0;
             this.SeatPicker.TabStop = false;
             this.SeatPicker.Visible = false;
-            this.SeatPicker.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // MovieMenu
             // 

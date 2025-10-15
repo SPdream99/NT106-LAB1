@@ -69,7 +69,6 @@
             this.Title.Size = new System.Drawing.Size(149, 36);
             this.Title.TabIndex = 1;
             this.Title.Text = "Tính toán";
-            this.Title.Click += new System.EventHandler(this.label1_Click);
             // 
             // NumABox
             // 

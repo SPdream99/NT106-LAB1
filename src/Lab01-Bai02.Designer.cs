@@ -56,7 +56,7 @@
             this.RemoveButton.TabIndex = 0;
             this.RemoveButton.Text = "Xóa";
             this.RemoveButton.UseVisualStyleBackColor = false;
-            this.RemoveButton.Click += new System.EventHandler(this.button1_Click);
+            this.RemoveButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
             // Title
             // 
@@ -67,7 +67,6 @@
             this.Title.Size = new System.Drawing.Size(321, 36);
             this.Title.TabIndex = 1;
             this.Title.Text = "Số lớn nhất, nhỏ nhất";
-            this.Title.Click += new System.EventHandler(this.label1_Click);
             // 
             // FirstText
             // 
@@ -102,7 +101,6 @@
             this.ThirdText.Name = "ThirdText";
             this.ThirdText.Size = new System.Drawing.Size(172, 22);
             this.ThirdText.TabIndex = 4;
-            this.ThirdText.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // ResultMax
             // 
@@ -125,7 +123,7 @@
             this.ExitButton.TabIndex = 8;
             this.ExitButton.Text = "Thoát";
             this.ExitButton.UseVisualStyleBackColor = false;
-            this.ExitButton.Click += new System.EventHandler(this.button2_Click);
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // FindButton
             // 
@@ -139,7 +137,7 @@
             this.FindButton.TabIndex = 9;
             this.FindButton.Text = "Tìm";
             this.FindButton.UseVisualStyleBackColor = false;
-            this.FindButton.Click += new System.EventHandler(this.button3_Click);
+            this.FindButton.Click += new System.EventHandler(this.FindButton_Click);
             // 
             // SecondLabel
             // 
@@ -177,7 +175,6 @@
             this.MinLabel.Size = new System.Drawing.Size(129, 25);
             this.MinLabel.TabIndex = 13;
             this.MinLabel.Text = "Số nhỏ nhất";
-            this.MinLabel.Click += new System.EventHandler(this.label6_Click);
             // 
             // ResultMin
             // 
@@ -187,7 +184,6 @@
             this.ResultMin.ReadOnly = true;
             this.ResultMin.Size = new System.Drawing.Size(158, 22);
             this.ResultMin.TabIndex = 12;
-            this.ResultMin.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // Lab01_Bai02
             // 

@@ -61,7 +61,6 @@
             this.Title.Size = new System.Drawing.Size(305, 36);
             this.Title.TabIndex = 1;
             this.Title.Text = "Tìm cung hoàng đạo";
-            this.Title.Click += new System.EventHandler(this.label1_Click);
             // 
             // ResultBox
             // 

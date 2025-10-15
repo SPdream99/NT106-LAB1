@@ -60,9 +60,7 @@
             this.Title.Name = "Title";
             this.Title.Size = new System.Drawing.Size(114, 36);
             this.Title.TabIndex = 1;
-            this.Title.Text = "Đọc số";
-            this.Title.Click += new System.EventHandler(this.label1_Click);
-            // 
+            this.Title.Text = "Đọc số";            // 
             // InputBox
             // 
             this.InputBox.Location = new System.Drawing.Point(398, 143);
