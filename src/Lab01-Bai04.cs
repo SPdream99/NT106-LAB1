@@ -23,18 +23,18 @@ namespace Lab1
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void RemoveButton_Click(object sender, EventArgs e)
         {
             InputButton.Clear();
             ResultBox.Clear();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void FindButton_Click(object sender, EventArgs e)
         {
             string numToText(Int16 i)
             {

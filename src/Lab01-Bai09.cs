@@ -28,7 +28,7 @@ namespace Lab1
             FoodMenu.Text = string.Join("\r\n", monAn);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RemoveButton_Click(object sender, EventArgs e)
         {
             InputBox.Clear();
             FoodMenu.Clear();
@@ -40,12 +40,12 @@ namespace Lab1
             FoodMenu.Text = string.Join("\r\n", monAn);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void AddButton_Click(object sender, EventArgs e)
         {
             if (!monAn.Contains(InputBox.Text)) monAn.Add(InputBox.Text);
             else MessageBox.Show("Món ăn đã tồn tại!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -53,7 +53,7 @@ namespace Lab1
             InputBox.Focus();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void FindButton_Click(object sender, EventArgs e)
         {
             ResultBox.Text = monAn[new Random().Next(0, monAn.Count)];
         }

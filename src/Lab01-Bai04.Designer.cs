@@ -50,7 +50,7 @@
             this.FindButton.TabIndex = 17;
             this.FindButton.Text = "Tìm";
             this.FindButton.UseVisualStyleBackColor = false;
-            this.FindButton.Click += new System.EventHandler(this.button3_Click);
+            this.FindButton.Click += new System.EventHandler(this.FindButton_Click);
             // 
             // ExitButton
             // 
@@ -64,7 +64,7 @@
             this.ExitButton.TabIndex = 16;
             this.ExitButton.Text = "Thoát";
             this.ExitButton.UseVisualStyleBackColor = false;
-            this.ExitButton.Click += new System.EventHandler(this.button2_Click);
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // ResultLabel
             // 
@@ -126,7 +126,7 @@
             this.RemoveButton.TabIndex = 10;
             this.RemoveButton.Text = "Xóa";
             this.RemoveButton.UseVisualStyleBackColor = false;
-            this.RemoveButton.Click += new System.EventHandler(this.button1_Click_1);
+            this.RemoveButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
             // Lab01_Bai04
             // 

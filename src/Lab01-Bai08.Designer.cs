@@ -65,7 +65,7 @@
             this.RemoveButton.TabIndex = 0;
             this.RemoveButton.Text = "Xóa";
             this.RemoveButton.UseVisualStyleBackColor = false;
-            this.RemoveButton.Click += new System.EventHandler(this.button1_Click);
+            this.RemoveButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
             // Title
             // 
@@ -115,7 +115,7 @@
             this.ExitButton.TabIndex = 8;
             this.ExitButton.Text = "Thoát";
             this.ExitButton.UseVisualStyleBackColor = false;
-            this.ExitButton.Click += new System.EventHandler(this.button2_Click);
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // AddButton
             // 
@@ -129,7 +129,7 @@
             this.AddButton.TabIndex = 9;
             this.AddButton.Text = "Thêm";
             this.AddButton.UseVisualStyleBackColor = false;
-            this.AddButton.Click += new System.EventHandler(this.button3_Click);
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // AvgLabel
             // 

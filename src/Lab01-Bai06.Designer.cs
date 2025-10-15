@@ -58,7 +58,7 @@
             this.RemoveButton.TabIndex = 0;
             this.RemoveButton.Text = "Xóa";
             this.RemoveButton.UseVisualStyleBackColor = false;
-            this.RemoveButton.Click += new System.EventHandler(this.button1_Click);
+            this.RemoveButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
             // Title
             // 
@@ -99,7 +99,7 @@
             this.ExitButton.TabIndex = 8;
             this.ExitButton.Text = "Thoát";
             this.ExitButton.UseVisualStyleBackColor = false;
-            this.ExitButton.Click += new System.EventHandler(this.button2_Click);
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // CalculateButton
             // 
@@ -113,7 +113,7 @@
             this.CalculateButton.TabIndex = 9;
             this.CalculateButton.Text = "Tính";
             this.CalculateButton.UseVisualStyleBackColor = false;
-            this.CalculateButton.Click += new System.EventHandler(this.button3_Click);
+            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // NumB
             // 

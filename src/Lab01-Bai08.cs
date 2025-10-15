@@ -23,7 +23,7 @@ namespace Lab1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RemoveButton_Click(object sender, EventArgs e)
         {
             InputBox.Clear();
             MaxBox.Clear();
@@ -36,12 +36,12 @@ namespace Lab1
             MarkPanel.Hide();
             MarkTable.Controls.Clear();
         }
-        private void button2_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void AddButton_Click(object sender, EventArgs e)
         {
             void addToTable<T>(TableLayoutPanel table, T s) {
                 Label label = new Label();

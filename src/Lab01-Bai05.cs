@@ -139,7 +139,7 @@ namespace Lab1
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RemoveButton_Click(object sender, EventArgs e)
         {
             BasicCostBox.Clear();
             CostBox.Clear();
@@ -152,12 +152,12 @@ namespace Lab1
             SeatPicker.Hide();
             thanhTien = 0;
         }
-        private void button2_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void MovieMenu_SelectedIndexChanged(object sender, EventArgs e)
         {
             currentPhim = MovieMenu.SelectedIndex;
             RoomMenu.SelectedIndex = -1;
@@ -172,7 +172,7 @@ namespace Lab1
             thanhTien = 0;
         }
 
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        private void RoomMenu_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (currentPhim < 0) return;
             BasicCostBox.Text = phimList[currentPhim].giaCoBan.ToString("C", new CultureInfo("vi-VN"));
@@ -182,7 +182,7 @@ namespace Lab1
             thanhTien = 0;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void ExportButton_Click(object sender, EventArgs e)
         {
             try
             {

@@ -61,7 +61,7 @@
             this.RemoveButton.TabIndex = 0;
             this.RemoveButton.Text = "Xóa";
             this.RemoveButton.UseVisualStyleBackColor = false;
-            this.RemoveButton.Click += new System.EventHandler(this.button1_Click);
+            this.RemoveButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
             // Title
             // 
@@ -103,7 +103,7 @@
             this.ExitButton.TabIndex = 8;
             this.ExitButton.Text = "Thoát";
             this.ExitButton.UseVisualStyleBackColor = false;
-            this.ExitButton.Click += new System.EventHandler(this.button2_Click);
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // ExportButton
             // 
@@ -117,7 +117,7 @@
             this.ExportButton.TabIndex = 9;
             this.ExportButton.Text = "Xuất";
             this.ExportButton.UseVisualStyleBackColor = false;
-            this.ExportButton.Click += new System.EventHandler(this.button3_Click);
+            this.ExportButton.Click += new System.EventHandler(this.ExportButton_Click);
             // 
             // RoomLabel
             // 
@@ -194,7 +194,7 @@
             this.MovieMenu.Name = "MovieMenu";
             this.MovieMenu.Size = new System.Drawing.Size(204, 24);
             this.MovieMenu.TabIndex = 15;
-            this.MovieMenu.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.MovieMenu.SelectedIndexChanged += new System.EventHandler(this.MovieMenu_SelectedIndexChanged);
             // 
             // RoomMenu
             // 
@@ -204,7 +204,7 @@
             this.RoomMenu.Name = "RoomMenu";
             this.RoomMenu.Size = new System.Drawing.Size(204, 24);
             this.RoomMenu.TabIndex = 16;
-            this.RoomMenu.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.RoomMenu.SelectedIndexChanged += new System.EventHandler(this.RoomMenu_SelectedIndexChanged);
             // 
             // CustomerNameLabel
             // 

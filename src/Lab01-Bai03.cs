@@ -24,13 +24,13 @@ namespace Lab1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RemoveButton_Click(object sender, EventArgs e)
         {
             InputBox.Clear();
             ResultBox.Clear();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void FindButton_Click(object sender, EventArgs e)
         {
             try
             {
@@ -80,7 +80,7 @@ namespace Lab1
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             Close();
         }

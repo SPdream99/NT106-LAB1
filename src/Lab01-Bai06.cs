@@ -23,19 +23,19 @@ namespace Lab1
             ResultGroup.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RemoveButton_Click(object sender, EventArgs e)
         {
             NumABox.Clear();
             NumBBox.Clear();
             ResultGroup.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void CalculateButton_Click(object sender, EventArgs e)
         {
             int tinhGiaiThua(int n)
             {
