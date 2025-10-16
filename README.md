@@ -11,7 +11,6 @@ Hướng dẫn sử dụng:
 ## Phần mềm cần thiết
 
 * [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
-* [SQL Server 2022](https://www.microsoft.com/vi-vn/sql-server/sql-server-downloads)
 
 ## Hướng dẫn cài đặt
 
@@ -21,12 +20,7 @@ Hướng dẫn sử dụng:
 #### Workloads:
   
    * ".NET desktop development"
-   * "Data storage and processing" 
-
-#### Individual Components
-
-   * "SQL Server Express LocalDB"
-   * "SQL Server Data Tools"
+   * "Data storage and processing"
 
 ### 3. Tạo bản sao của repository NT106-LAB1
 ```bash
