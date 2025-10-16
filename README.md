@@ -32,7 +32,7 @@ start Lab1.csproj
 ```
 
 ### 4. Build và chạy Lab01
-* Set Lab01 thành Startup Project
+* Set Lab1 thành Startup Project
 * Debug -> Start Debugging
 
 ### 5. Sử dụng ứng dụng
