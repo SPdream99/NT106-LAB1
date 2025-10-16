@@ -7,6 +7,8 @@ Bài tập trên GitHub để nộp cho giáo viên lớp NT106.Q14 UIT VNUHCM 2
 - Tên sinh viên: Nguyễn Nhật Anh  
 - MSSV: 24520112
 
+> Lập trình C# & Windows Forms cơ bản
+
 Hướng dẫn sử dụng:
 ## Phần mềm cần thiết
 
