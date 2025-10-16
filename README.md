@@ -42,7 +42,6 @@ start Lab1.csproj
 ### 5. Sử dụng ứng dụng
 * Từ Lab01, chọn bài muốn test
 | Bài | Tên Ứng dụng | Mô tả ngắn gọn |
-| :---: | :--- | :--- |
 | **Bài 01** | Tính tổng 2 số nguyên | Tính tổng hai số nguyên và kiểm tra ràng buộc đầu vào. |
 | **Bài 02** | Số lớn nhất, nhỏ nhất | Tìm và hiển thị số lớn nhất, nhỏ nhất trong ba số nguyên nhập vào. |
 | **Bài 03** | Đọc số cơ bản | Nhập số nguyên từ 0 đến 9, hiển thị cách đọc bằng chữ (tiếng Việt). |
