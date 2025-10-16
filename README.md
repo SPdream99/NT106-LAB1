@@ -47,12 +47,12 @@ Từ Lab01, chọn bài muốn test
 | **Bài 01** | Tính tổng 2 số nguyên | Tính tổng hai số nguyên và kiểm tra ràng buộc đầu vào. |
 | **Bài 02** | Số lớn nhất, nhỏ nhất | Tìm và hiển thị số lớn nhất, nhỏ nhất trong ba số nguyên nhập vào. |
 | **Bài 03** | Đọc số cơ bản | Nhập số nguyên từ 0 đến 9, hiển thị cách đọc bằng chữ (tiếng Việt). |
-| **Bài 03.1** | Đọc số nâng cao | Nhập số có tối đa 12 chữ số, hiển thị cách đọc bằng chữ (tiếng Việt). |
-| **Bài 04** | Quản lý phòng vé | Ứng dụng mô phỏng việc quản lý và tính tiền vé xem phim/sự kiện. |
-| **Bài 05** | Tính Toán Hỗn Hợp | Tính Bảng cửu chương và các giá trị giai thừa, lũy thừa tổng. |
-| **Bài 06** | Thông tin cung hoàng đạo | Nhập ngày tháng năm sinh để tra cứu cung hoàng đạo và thông tin liên quan. |
-| **Bài 07** | Xử lý mảng (Điểm SV) | Quản lý danh sách điểm của sinh viên bằng mảng/list. |
-| **Bài 08** | Hôm nay ăn gì? | Ứng dụng gợi ý món ăn ngẫu nhiên hoặc theo tiêu chí. |
+| **Bài 04** | Đọc số nâng cao | Nhập số có tối đa 12 chữ số, hiển thị cách đọc bằng chữ (tiếng Việt). |
+| **Bài 05** | Quản lý phòng vé | Ứng dụng mô phỏng việc quản lý và tính tiền vé xem phim/sự kiện. |
+| **Bài 06** | Tính Toán Hỗn Hợp | Tính Bảng cửu chương và các giá trị giai thừa, lũy thừa tổng. |
+| **Bài 07** | Thông tin cung hoàng đạo | Nhập ngày tháng năm sinh để tra cứu cung hoàng đạo và thông tin liên quan. |
+| **Bài 08** | Xử lý mảng (Điểm SV) | Quản lý danh sách điểm của sinh viên bằng mảng/list. |
+| **Bài 09** | Hôm nay ăn gì? | Ứng dụng gợi ý món ăn ngẫu nhiên hoặc theo tiêu chí. |
 
 ## Tài liệu tham khảo
 
